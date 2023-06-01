@@ -1,12 +1,12 @@
 #include "WindowTest.hpp"
 #include <windows.h>
 
-void WindowTest::show_dialog()
+void show_dialog()
 {
     int message_result = MessageBox(
         NULL,
-        L"hi",
-        L"hi",
+        LPSTR("hi"),
+        LPSTR("hi"),
         MB_OK
     );
 }
