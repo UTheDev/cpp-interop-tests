@@ -5,7 +5,7 @@
 //using System;
 using System.Runtime.InteropServices;
 
-const string dllPath = "build/libwindow_test.dll";
+const string dllPath = "lib/libwindow_test.dll";
 
 [DllImport(dllPath, CallingConvention = CallingConvention.Cdecl)]
 extern static void show_dialog();
