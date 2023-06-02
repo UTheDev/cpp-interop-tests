@@ -6,6 +6,9 @@ enable_testing()
 
 add_executable(godot-cpp-test src/native/main.cpp)
 
+# see https://stackoverflow.com/questions/6499364/generating-dll-using-cmake
+add_library(window_test SHARED src/native/WindowTest.cpp)
+
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
