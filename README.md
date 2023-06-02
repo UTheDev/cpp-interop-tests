@@ -1,2 +1,2 @@
-# godot-cpp-test
- Attempt at trying to get a Godot app to communicate in C++
+# cpp-interop-tests
+Attempts at trying to get C++ code and non-C++ code to interact with each other
